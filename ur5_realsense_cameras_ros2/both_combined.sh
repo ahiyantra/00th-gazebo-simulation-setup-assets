@@ -13,7 +13,7 @@ pip install -r requirements.txt
 
 : <<'END_COMMENT'
 # we could use absolute paths if necessary;
-$ export PYTHONPATH=$PYTHONPATH:/mnt/e/-_EDI_-/assets/_3D-Pose-Estimator_/FoundationPose/mycpp/build
+$ export PYTHONPATH=$PYTHONPATH:/mnt/e/-_-02nd-redacted-term-_-/assets/_3D-Pose-Estimator_/FoundationPose/mycpp/build
 # we should try to avoid using absolute paths;
 END_COMMENT
 
@@ -37,7 +37,7 @@ export PROJ_DIR=$(pwd)
 
 : <<'END_COMMENT'
 # shift to the directory of a certain library & rebuild it separately to avoid a certain error;
-# the necessary library named below is in the model container but not in the imoco container;
+# the necessary library named below is in the model container but not in the -01st-redacted-term- container;
 END_COMMENT
 
 cd /nvdiffrast
@@ -45,7 +45,7 @@ python setup.py build
 
 : <<'END_COMMENT'
 # we can return to the project directory using absolute path;
-$ cd /mnt/e/-_EDI_-/assets/_3D-Pose-Estimator_/FoundationPose
+$ cd /mnt/e/-_-02nd-redacted-term-_-/assets/_3D-Pose-Estimator_/FoundationPose
 # we should return to the project directory using variable path;
 END_COMMENT
 
@@ -63,7 +63,7 @@ apt-get -y install cudnn-cuda-11
 
 : <<'END_COMMENT'
 # don't use "sudo" keyword inside nvidia foundationpose project's docker container;
-# we can try running some relevant bash commands from the official dockerfile for the nvidia foundationpose repository but that may not be enough to resolve the issue of nvdiffrast being missing in the imoco container;
+# we can try running some relevant bash commands from the official dockerfile for the nvidia foundationpose repository but that may not be enough to resolve the issue of nvdiffrast being missing in the -01st-redacted-term- container;
 END_COMMENT
 
 CMAKE_PREFIX_PATH=$CONDA_PREFIX/lib/python3.9/site-packages/pybind11/share/cmake/pybind11 bash build_all.sh

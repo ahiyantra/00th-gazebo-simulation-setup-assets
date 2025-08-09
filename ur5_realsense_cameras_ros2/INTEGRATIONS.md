@@ -73,9 +73,9 @@ CMAKE_PREFIX_PATH=$CONDA_PREFIX/lib/python3.9/site-packages/pybind11/share/cmake
 
 01. sample directory address = ./RootFolder/demo_data/bottle0 
 
-02. my directory address (windows 10) = E:\-_EDI_-\assets\3D Pose Estimator\FoundationPose\demo_data\bottle0
+02. my directory address (windows 10) = E:\-_-02nd-redacted-term-_-\assets\3D Pose Estimator\FoundationPose\demo_data\bottle0
 
-03. directory address (wsl 2 ubuntu 22) = /mnt/e/-_EDI_-/assets/3D Pose Estimator/FoundationPose/demo_data/bottle0/
+03. directory address (wsl 2 ubuntu 22) = /mnt/e/-_-02nd-redacted-term-_-/assets/3D Pose Estimator/FoundationPose/demo_data/bottle0/
 
 # 2.1. FoundationPose → 2.1.2. Running / Inference → 2.1.2.2 - Command to run :
 
@@ -89,4 +89,4 @@ python 6d_image.py
 
 # Author details.
 
-Swarn S. W. (it23139[at]lbtu.lv)
+S. S. W. (it23139[at]lbtu.lv)

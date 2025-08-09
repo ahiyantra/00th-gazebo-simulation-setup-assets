@@ -3,7 +3,7 @@ FROM dock_im_pickplace_03_3:12032024
 ### Use bash by default
 SHELL ["/bin/bash", "-c"]
 
-# Previously installed packages: edi_moveit_config, edi_robot_description, ros2_robotiq_gripper, serial, cartesian_controllers.
+# Previously installed packages: -02nd-redacted-term-_moveit_config, -02nd-redacted-term-_robot_description, ros2_robotiq_gripper, serial, cartesian_controllers.
 # Also dependencies that were installed previously: Universal_Robots_ROS2_Description, Universal_Robots_ROS2_Driver, control_msgs, kinematics_interface, Universal_Robots_Client_Library, ur_msgs
 
 RUN apt-get install usbutils -y && \
@@ -15,7 +15,7 @@ RUN apt-get install usbutils -y && \
     apt-get install librealsense2-dkms librealsense2-utils librealsense2-dev librealsense2-dbg -y && \
     apt install ros-humble-realsense2-* -y 
 
-WORKDIR /root/ws/src/imoco_rl_grasp_reach/
+WORKDIR /root/ws/src/-01st-redacted-term-_rl_grasp_reach/
 
 ENTRYPOINT ["/bin/bash", "-c", "/root/entrypoint.bash \"${@}\"", "-s"]
 CMD ["/bin/bash"] 

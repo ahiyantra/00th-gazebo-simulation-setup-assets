@@ -1,6 +1,6 @@
-# Creating a setup on windows 10 with ubuntu 22 to work on the imoco project.
+# Creating a setup on windows 10 with ubuntu 22 to work on the -01st-redacted-term- project.
 
-The "windows subsystem for linux" (WSL) version 02, although not version 01, can be used to create a setup that allows the user to work on the imoco project. This setup behaves more like a dual boot of windows with a linux distro and less like an instance of a linux distro in a virtual machine on windows, which allows better utilisation of all hardware resources. Here, we'll choose the ubuntu 22 distro.
+The "windows subsystem for linux" (WSL) version 02, although not version 01, can be used to create a setup that allows the user to work on the -01st-redacted-term- project. This setup behaves more like a dual boot of windows with a linux distro and less like an instance of a linux distro in a virtual machine on windows, which allows better utilisation of all hardware resources. Here, we'll choose the ubuntu 22 distro.
 
 Since the WSL 2 is originally intended to be used as a text terminal, it doesn't have a pre-installed desktop GUI package but we can install one of our choice, just like in any other instance of the ubuntu 22 distro. Here, we'll choose the lightweight XFCE desktop GUI package.
 
@@ -12,9 +12,9 @@ After installing the XFCE and XRDP packages, we run an RDP server inside the WSL
 
 The only limitation of this setup is that the same software can't be run one both sides for ubuntu 22 here (the RDP client GUI side and the WSL 2 text terminal side). For example, since we'll be using the RDP server on the WSL 2 text terminal side, therefore we can't use it on the RDP client GUI side.
 
-Inside ubuntu 22, we can install docker engine and visual studio code editor with sudo commands in the terminal. With them, we can start working on the imoco project. It should be possible to use a similar setup for linux distros inside docker container to use them with GUI features when running them on windows 10.
+Inside ubuntu 22, we can install docker engine and visual studio code editor with sudo commands in the terminal. With them, we can start working on the -01st-redacted-term- project. It should be possible to use a similar setup for linux distros inside docker container to use them with GUI features when running them on windows 10.
 
-As the WSL 2 installation can access hardware resources with almost no restrictions, it should be possible to connect the docker container with the imoco project's hardware without any significant issues.
+As the WSL 2 installation can access hardware resources with almost no restrictions, it should be possible to connect the docker container with the -01st-redacted-term- project's hardware without any significant issues.
 
 Going through the lists of refereces is recommended before using any of the listed commands to avoid any issues caused by accidental oversimplification of steps mentioned here. Currently, the ubuntu distro for WSL 2 is version 22 by default because it's the latest LTS version but that can change when the next LTS version is released.
 
@@ -94,4 +94,4 @@ startxfce4
 
 # Author details.
 
-Swarn S. W. (it23139[at]lbtu.lv)
+S. S. W. (it23139[at]lbtu.lv)

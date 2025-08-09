@@ -20,8 +20,8 @@
 
 # Terminal commands.
 
-01. Open three terminal windows (one for ignition gazebo fortress, one for ROS2's paramter bridge & one for rviz2) attached to the imoco project's docker container.
-02. We're assuming that the demo-01 files are placed at the following system address: /imoco_rl_pickplace/src_code_1/imoco_rl_grasp_reach/realsense_cameras_ros2/demo-01/
+01. Open three terminal windows (one for ignition gazebo fortress, one for ROS2's paramter bridge & one for rviz2) attached to the -01st-redacted-term- project's docker container.
+02. We're assuming that the demo-01 files are placed at the following system address: /-01st-redacted-term-_rl_pickplace/src_code_1/-01st-redacted-term-_rl_grasp_reach/realsense_cameras_ros2/demo-01/
 03. Commands for first terminal window after going to where the demo files are placed:
     $ ign gazebo demo-01.sdf
 04. Commands for second terminal window to map communication topics from gazebo to ros2:
@@ -133,4 +133,4 @@ ros2 launch realsense2_camera rs_launch.py depth_module.depth_profile:=1280x720x
 
 # Author details.
 
-Swarn S. W. (it23139[at]lbtu.lv)
+S. S. W. (it23139[at]lbtu.lv)

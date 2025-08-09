@@ -38,4 +38,4 @@ ros 2 - humble hawksbill (lts - 5 years)
 
 # Author details.
 
-Swarn S. W. (it23139[at]lbtu.lv)
+S. S. W. (it23139[at]lbtu.lv)
