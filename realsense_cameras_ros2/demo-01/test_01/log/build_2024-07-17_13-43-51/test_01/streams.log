@@ -1,0 +1,57 @@
+[0.144s] Invoking command in '/root/ws/assets/demo-01/test_01/build/test_01': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/ws/assets/demo-01/test_01/build/test_01 -- -j16 -l16
+[0.285s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.471s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.680s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.471s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.472s] -- Configured cppcheck include dirs: 
+[5.473s] -- Configured cppcheck exclude dirs and/or files: 
+[6.038s] -- Added test 'flake8' to check Python code syntax and style conventions
+[7.130s] -- Added test 'lint_cmake' to check CMake code style
+[7.682s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[12.158s] -- Added test 'uncrustify' to check C / C++ code style
+[12.159s] -- Configured uncrustify additional arguments: 
+[12.726s] -- Added test 'xmllint' to check XML markup files
+[12.825s] -- Configuring done
+[13.063s] -- Generating done
+[13.126s] -- Build files have been written to: /root/ws/assets/demo-01/test_01/build/test_01
+[13.158s] Invoked command in '/root/ws/assets/demo-01/test_01/build/test_01' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/ws/assets/demo-01/test_01/build/test_01 -- -j16 -l16
+[13.203s] Invoking command in '/root/ws/assets/demo-01/test_01/build/test_01': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/ws/assets/demo-01/test_01/build/test_01
+[13.218s] -- Install configuration: ""
+[13.224s] -- Up-to-date: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/launch
+[13.245s] -- Up-to-date: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/launch/cylinder.launch.py
+[13.259s] -- Up-to-date: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/launch/d415.launch.py
+[13.273s] -- Installing: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/launch/d435.launch.py
+[13.346s] -- Up-to-date: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/launch/__pycache__
+[13.369s] -- Up-to-date: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/launch/__pycache__/cylinder.launch.cpython-310.pyc
+[13.391s] -- Up-to-date: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/launch/__pycache__/d415.launch.cpython-310.pyc
+[13.415s] -- Installing: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/launch/__pycache__/d435.launch.cpython-310.pyc
+[13.489s] -- Up-to-date: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/launch/__pycache__/display.launch.cpython-310.pyc
+[13.502s] -- Up-to-date: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/urdf
+[13.523s] -- Up-to-date: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/urdf/cylinder.urdf
+[13.539s] -- Up-to-date: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/urdf/test_d415_camera.urdf.xacro
+[13.553s] -- Up-to-date: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/urdf/test_d435_camera.urdf.xacro
+[13.568s] -- Up-to-date: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/urdf/_d415.urdf.xacro
+[13.582s] -- Up-to-date: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/urdf/_d435.gazebo.xacro
+[13.598s] -- Installing: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/urdf/_d435.urdf.xacro
+[13.669s] -- Up-to-date: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/mesh
+[13.687s] -- Up-to-date: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/mesh/d415.stl
+[13.704s] -- Up-to-date: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/mesh/d435.dae
+[13.720s] -- Up-to-date: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/rviz
+[13.741s] -- Up-to-date: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/rviz/test_01.rviz
+[13.753s] -- Installing: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/rviz/test_rs.rviz
+[13.839s] -- Installing: /root/ws/assets/demo-01/test_01/install/test_01/share/ament_index/resource_index/package_run_dependencies/test_01
+[13.949s] -- Installing: /root/ws/assets/demo-01/test_01/install/test_01/share/ament_index/resource_index/parent_prefix_path/test_01
+[14.033s] -- Installing: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/environment/ament_prefix_path.sh
+[14.085s] -- Installing: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/environment/ament_prefix_path.dsv
+[14.144s] -- Installing: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/environment/path.sh
+[14.196s] -- Installing: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/environment/path.dsv
+[14.261s] -- Installing: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/local_setup.bash
+[14.315s] -- Installing: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/local_setup.sh
+[14.368s] -- Installing: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/local_setup.zsh
+[14.425s] -- Installing: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/local_setup.dsv
+[14.478s] -- Installing: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/package.dsv
+[14.559s] -- Installing: /root/ws/assets/demo-01/test_01/install/test_01/share/ament_index/resource_index/packages/test_01
+[14.654s] -- Installing: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/cmake/test_01Config.cmake
+[14.713s] -- Installing: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/cmake/test_01Config-version.cmake
+[14.774s] -- Installing: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/package.xml
+[14.818s] Invoked command in '/root/ws/assets/demo-01/test_01/build/test_01' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/ws/assets/demo-01/test_01/build/test_01

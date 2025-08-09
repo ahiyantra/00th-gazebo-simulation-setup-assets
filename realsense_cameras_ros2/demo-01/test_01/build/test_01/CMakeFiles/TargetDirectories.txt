@@ -1,0 +1,9 @@
+/root/ws/assets/demo-01/test_01/build/test_01/CMakeFiles/uninstall.dir
+/root/ws/assets/demo-01/test_01/build/test_01/CMakeFiles/test_01_uninstall.dir
+/root/ws/assets/demo-01/test_01/build/test_01/CMakeFiles/test.dir
+/root/ws/assets/demo-01/test_01/build/test_01/CMakeFiles/edit_cache.dir
+/root/ws/assets/demo-01/test_01/build/test_01/CMakeFiles/rebuild_cache.dir
+/root/ws/assets/demo-01/test_01/build/test_01/CMakeFiles/list_install_components.dir
+/root/ws/assets/demo-01/test_01/build/test_01/CMakeFiles/install.dir
+/root/ws/assets/demo-01/test_01/build/test_01/CMakeFiles/install/local.dir
+/root/ws/assets/demo-01/test_01/build/test_01/CMakeFiles/install/strip.dir

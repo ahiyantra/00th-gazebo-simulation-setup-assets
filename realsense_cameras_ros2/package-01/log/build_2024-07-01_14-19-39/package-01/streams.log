@@ -1,0 +1,69 @@
+[0.092s] Invoking command in '/root/ws/assets/package-01/build/package-01': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /root/ws/assets/package-01 -DCMAKE_INSTALL_PREFIX=/root/ws/assets/package-01/install/package-01
+[0.170s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.616s] -- Configuring done
+[0.794s] -- Generating done
+[0.840s] -- Build files have been written to: /root/ws/assets/package-01/build/package-01
+[0.847s] Invoked command in '/root/ws/assets/package-01/build/package-01' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /root/ws/assets/package-01 -DCMAKE_INSTALL_PREFIX=/root/ws/assets/package-01/install/package-01
+[0.857s] Invoking command in '/root/ws/assets/package-01/build/package-01': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/ws/assets/package-01/build/package-01 -- -j16 -l16
+[0.924s] Invoked command in '/root/ws/assets/package-01/build/package-01' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/ws/assets/package-01/build/package-01 -- -j16 -l16
+[0.961s] Invoking command in '/root/ws/assets/package-01/build/package-01': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/ws/assets/package-01/build/package-01
+[0.968s] -- Install configuration: ""
+[0.970s] -- Installing: /root/ws/assets/package-01/install/package-01/share/package-01/launch
+[0.987s] -- Installing: /root/ws/assets/package-01/install/package-01/share/package-01/launch/demo-01_sim.launch.py
+[1.037s] -- Installing: /root/ws/assets/package-01/install/package-01/share/package-01/worlds
+[1.054s] -- Installing: /root/ws/assets/package-01/install/package-01/share/package-01/worlds/demo-01.sdf
+[1.110s] -- Installing: /root/ws/assets/package-01/install/package-01/share/package-01/worlds/demo-01_alt.sdf
+[1.160s] -- Installing: /root/ws/assets/package-01/install/package-01/share/package-01/models
+[1.176s] -- Installing: /root/ws/assets/package-01/install/package-01/share/package-01/models/D435.sdf
+[1.230s] -- Installing: /root/ws/assets/package-01/install/package-01/share/package-01/models/Intel-RealSense-D435_openrobotics
+[1.251s] -- Installing: /root/ws/assets/package-01/install/package-01/share/package-01/models/Intel-RealSense-D435_openrobotics/materials
+[1.277s] -- Installing: /root/ws/assets/package-01/install/package-01/share/package-01/models/Intel-RealSense-D435_openrobotics/materials/scripts
+[1.313s] -- Installing: /root/ws/assets/package-01/install/package-01/share/package-01/models/Intel-RealSense-D435_openrobotics/materials/scripts/model.material
+[1.391s] -- Installing: /root/ws/assets/package-01/install/package-01/share/package-01/models/Intel-RealSense-D435_openrobotics/materials/scripts/model.material:Zone.Identifier
+[1.466s] -- Installing: /root/ws/assets/package-01/install/package-01/share/package-01/models/Intel-RealSense-D435_openrobotics/materials/textures
+[1.500s] -- Installing: /root/ws/assets/package-01/install/package-01/share/package-01/models/Intel-RealSense-D435_openrobotics/materials/textures/RealSense_Albedo.png
+[1.593s] -- Installing: /root/ws/assets/package-01/install/package-01/share/package-01/models/Intel-RealSense-D435_openrobotics/materials/textures/RealSense_Albedo.png:Zone.Identifier
+[1.665s] -- Installing: /root/ws/assets/package-01/install/package-01/share/package-01/models/Intel-RealSense-D435_openrobotics/materials/textures/RealSense_Metalness.png
+[1.750s] -- Installing: /root/ws/assets/package-01/install/package-01/share/package-01/models/Intel-RealSense-D435_openrobotics/materials/textures/RealSense_Metalness.png:Zone.Identifier
+[1.822s] -- Installing: /root/ws/assets/package-01/install/package-01/share/package-01/models/Intel-RealSense-D435_openrobotics/materials/textures/RealSense_Normal.png
+[1.917s] -- Installing: /root/ws/assets/package-01/install/package-01/share/package-01/models/Intel-RealSense-D435_openrobotics/materials/textures/RealSense_Normal.png:Zone.Identifier
+[1.990s] -- Installing: /root/ws/assets/package-01/install/package-01/share/package-01/models/Intel-RealSense-D435_openrobotics/materials/textures/RealSense_Roughness.png
+[2.132s] -- Installing: /root/ws/assets/package-01/install/package-01/share/package-01/models/Intel-RealSense-D435_openrobotics/materials/textures/RealSense_Roughness.png:Zone.Identifier
+[2.197s] -- Installing: /root/ws/assets/package-01/install/package-01/share/package-01/models/Intel-RealSense-D435_openrobotics/meshes
+[2.226s] -- Installing: /root/ws/assets/package-01/install/package-01/share/package-01/models/Intel-RealSense-D435_openrobotics/meshes/realsense.dae
+[2.299s] -- Installing: /root/ws/assets/package-01/install/package-01/share/package-01/models/Intel-RealSense-D435_openrobotics/meshes/realsense.dae:Zone.Identifier
+[2.361s] -- Installing: /root/ws/assets/package-01/install/package-01/share/package-01/models/Intel-RealSense-D435_openrobotics/model.config
+[2.426s] -- Installing: /root/ws/assets/package-01/install/package-01/share/package-01/models/Intel-RealSense-D435_openrobotics/model.config:Zone.Identifier
+[2.480s] -- Installing: /root/ws/assets/package-01/install/package-01/share/package-01/models/Intel-RealSense-D435_openrobotics/model.sdf
+[2.544s] -- Installing: /root/ws/assets/package-01/install/package-01/share/package-01/models/Intel-RealSense-D435_openrobotics/model.sdf:Zone.Identifier
+[2.596s] -- Installing: /root/ws/assets/package-01/install/package-01/share/package-01/models/Intel-RealSense-D435_openrobotics/thumbnails
+[2.626s] -- Installing: /root/ws/assets/package-01/install/package-01/share/package-01/models/Intel-RealSense-D435_openrobotics/thumbnails/1.png
+[2.697s] -- Installing: /root/ws/assets/package-01/install/package-01/share/package-01/models/Intel-RealSense-D435_openrobotics/thumbnails/1.png:Zone.Identifier
+[2.760s] -- Installing: /root/ws/assets/package-01/install/package-01/share/package-01/models/Intel-RealSense-D435_openrobotics/thumbnails/2.png
+[2.829s] -- Installing: /root/ws/assets/package-01/install/package-01/share/package-01/models/Intel-RealSense-D435_openrobotics/thumbnails/2.png:Zone.Identifier
+[2.896s] -- Installing: /root/ws/assets/package-01/install/package-01/share/package-01/models/Intel-RealSense-D435_openrobotics/thumbnails/3.png
+[2.969s] -- Installing: /root/ws/assets/package-01/install/package-01/share/package-01/models/Intel-RealSense-D435_openrobotics/thumbnails/3.png:Zone.Identifier
+[3.039s] -- Installing: /root/ws/assets/package-01/install/package-01/share/package-01/models/Intel-RealSense-D435_openrobotics/thumbnails/4.png
+[3.108s] -- Installing: /root/ws/assets/package-01/install/package-01/share/package-01/models/Intel-RealSense-D435_openrobotics/thumbnails/4.png:Zone.Identifier
+[3.163s] -- Installing: /root/ws/assets/package-01/install/package-01/share/package-01/config
+[3.181s] -- Installing: /root/ws/assets/package-01/install/package-01/share/package-01/config/rs-general-igngz.rviz
+[3.227s] -- Installing: /root/ws/assets/package-01/install/package-01/share/package-01/config/rs-pointcloud-hardware.rviz
+[3.276s] -- Installing: /root/ws/assets/package-01/install/package-01/share/package-01/config/rs-pointcloud-igngz.rviz
+[3.320s] -- Installing: /root/ws/assets/package-01/install/package-01/share/package-01/config/rs-rgbd-hardware.rviz
+[3.363s] -- Installing: /root/ws/assets/package-01/install/package-01/share/package-01/config/rs-rgbd-igngz.rviz
+[3.424s] -- Installing: /root/ws/assets/package-01/install/package-01/share/ament_index/resource_index/package_run_dependencies/package-01
+[3.499s] -- Installing: /root/ws/assets/package-01/install/package-01/share/ament_index/resource_index/parent_prefix_path/package-01
+[3.561s] -- Installing: /root/ws/assets/package-01/install/package-01/share/package-01/environment/ament_prefix_path.sh
+[3.602s] -- Installing: /root/ws/assets/package-01/install/package-01/share/package-01/environment/ament_prefix_path.dsv
+[3.645s] -- Installing: /root/ws/assets/package-01/install/package-01/share/package-01/environment/path.sh
+[3.687s] -- Installing: /root/ws/assets/package-01/install/package-01/share/package-01/environment/path.dsv
+[3.734s] -- Installing: /root/ws/assets/package-01/install/package-01/share/package-01/local_setup.bash
+[3.775s] -- Installing: /root/ws/assets/package-01/install/package-01/share/package-01/local_setup.sh
+[3.818s] -- Installing: /root/ws/assets/package-01/install/package-01/share/package-01/local_setup.zsh
+[3.862s] -- Installing: /root/ws/assets/package-01/install/package-01/share/package-01/local_setup.dsv
+[3.902s] -- Installing: /root/ws/assets/package-01/install/package-01/share/package-01/package.dsv
+[3.959s] -- Installing: /root/ws/assets/package-01/install/package-01/share/ament_index/resource_index/packages/package-01
+[4.025s] -- Installing: /root/ws/assets/package-01/install/package-01/share/package-01/cmake/package-01Config.cmake
+[4.067s] -- Installing: /root/ws/assets/package-01/install/package-01/share/package-01/cmake/package-01Config-version.cmake
+[4.111s] -- Installing: /root/ws/assets/package-01/install/package-01/share/package-01/package.xml
+[4.145s] Invoked command in '/root/ws/assets/package-01/build/package-01' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/ws/assets/package-01/build/package-01

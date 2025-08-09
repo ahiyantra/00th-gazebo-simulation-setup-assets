@@ -1,0 +1,63 @@
+FROM foundationpose:latest
+
+### Use bash by default
+SHELL ["/bin/bash", "-c"]
+
+# Set Python version 
+ENV PYTHON_VERSION=3.9
+
+# Set Python executable for build process
+ENV PYTHON_EXECUTABLE=/usr/bin/python3.9
+
+RUN apt-get update && apt-get install -y \
+    cmake \
+    build-essential \
+    python3.9 \
+    python3.9-dev \
+    python3.9-venv \
+    python3.9-distutils \
+    python3-pip \
+    wget \
+    curl \
+    git \
+    && apt-get clean 
+
+# Set Python 3.9 as the default python3
+RUN update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.9 1
+
+# Install Realsense camera
+RUN apt-get update && apt-get install -y lsb-release coreutils usbutils mesa-utils && apt-get clean all && \
+    mkdir -p /etc/apt/keyrings && \
+    curl -sSf https://librealsense.intel.com/Debian/librealsense.pgp | tee /etc/apt/keyrings/librealsense.pgp > /dev/null && \
+    echo "deb [signed-by=/etc/apt/keyrings/librealsense.pgp] https://librealsense.intel.com/Debian/apt-repo `lsb_release -cs` main" | \
+    tee /etc/apt/sources.list.d/librealsense.list && \
+    apt-get update && \
+    apt-get install librealsense2-dkms librealsense2-utils librealsense2-dev librealsense2-dbg -y && \
+    pip install --upgrade ultralytics && \
+    pip install pyrealsense2 
+
+COPY . /home/_3D-Pose-Estimator_
+
+RUN cd /home && \
+    ls -a && echo "Directory contents:" && ls -a | sed 's/^/    /'
+
+#RUN cd /home/_3D-Pose-Estimator_/FoundationPose && \
+#    cd /home/_3D-Pose-Estimator_/FoundationPose/mycpp/ && \
+#    rm -rf /home/_3D-Pose-Estimator_/FoundationPose/mycpp/build/ && \
+
+RUN cd /home/_3D-Pose-Estimator_/FoundationPose && \
+    CMAKE_PREFIX_PATH=$CONDA_PREFIX/lib/python3.9/site-packages/pybind11/share/cmake/pybind11 bash build_all.sh
+
+RUN cd /home/_3D-Pose-Estimator_/FoundationPose/mycpp && \
+    cmake .
+
+RUN cd /home/_3D-Pose-Estimator_/FoundationPose/mycpp/build && \
+    ls -a && echo "Directory contents:" && ls -a | sed 's/^/    /'
+
+RUN cp mycpp.cpython-39-x86_64-linux-gnu.so mycpp.so && \       
+    cd ../..
+
+RUN echo 'export PYTHONPATH=$PYTHONPATH:/home/_3D-Pose-Estimator_/FoundationPose/mycpp/build' >> ~/.bashrc 
+
+WORKDIR /home/_3D-Pose-Estimator_/FoundationPose
+CMD ["/bin/bash"] 

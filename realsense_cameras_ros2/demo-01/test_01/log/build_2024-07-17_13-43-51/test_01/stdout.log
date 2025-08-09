@@ -1,0 +1,53 @@
+-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /root/ws/assets/demo-01/test_01/build/test_01
+-- Install configuration: ""
+-- Up-to-date: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/launch
+-- Up-to-date: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/launch/cylinder.launch.py
+-- Up-to-date: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/launch/d415.launch.py
+-- Installing: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/launch/d435.launch.py
+-- Up-to-date: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/launch/__pycache__
+-- Up-to-date: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/launch/__pycache__/cylinder.launch.cpython-310.pyc
+-- Up-to-date: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/launch/__pycache__/d415.launch.cpython-310.pyc
+-- Installing: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/launch/__pycache__/d435.launch.cpython-310.pyc
+-- Up-to-date: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/launch/__pycache__/display.launch.cpython-310.pyc
+-- Up-to-date: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/urdf
+-- Up-to-date: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/urdf/cylinder.urdf
+-- Up-to-date: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/urdf/test_d415_camera.urdf.xacro
+-- Up-to-date: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/urdf/test_d435_camera.urdf.xacro
+-- Up-to-date: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/urdf/_d415.urdf.xacro
+-- Up-to-date: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/urdf/_d435.gazebo.xacro
+-- Installing: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/urdf/_d435.urdf.xacro
+-- Up-to-date: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/mesh
+-- Up-to-date: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/mesh/d415.stl
+-- Up-to-date: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/mesh/d435.dae
+-- Up-to-date: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/rviz
+-- Up-to-date: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/rviz/test_01.rviz
+-- Installing: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/rviz/test_rs.rviz
+-- Installing: /root/ws/assets/demo-01/test_01/install/test_01/share/ament_index/resource_index/package_run_dependencies/test_01
+-- Installing: /root/ws/assets/demo-01/test_01/install/test_01/share/ament_index/resource_index/parent_prefix_path/test_01
+-- Installing: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/environment/ament_prefix_path.sh
+-- Installing: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/environment/ament_prefix_path.dsv
+-- Installing: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/environment/path.sh
+-- Installing: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/environment/path.dsv
+-- Installing: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/local_setup.bash
+-- Installing: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/local_setup.sh
+-- Installing: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/local_setup.zsh
+-- Installing: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/local_setup.dsv
+-- Installing: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/package.dsv
+-- Installing: /root/ws/assets/demo-01/test_01/install/test_01/share/ament_index/resource_index/packages/test_01
+-- Installing: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/cmake/test_01Config.cmake
+-- Installing: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/cmake/test_01Config-version.cmake
+-- Installing: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/package.xml

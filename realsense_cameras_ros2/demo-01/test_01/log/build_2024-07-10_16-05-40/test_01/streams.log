@@ -1,0 +1,36 @@
+[0.095s] Invoking command in '/root/ws/assets/demo-01/test_01/build/test_01': /usr/bin/cmake /root/ws/assets/demo-01/test_01 -DCMAKE_INSTALL_PREFIX=/root/ws/assets/demo-01/test_01/install/test_01
+[0.451s] -- The C compiler identification is GNU 11.4.0
+[0.648s] -- The CXX compiler identification is GNU 11.4.0
+[0.690s] -- Detecting C compiler ABI info
+[1.065s] -- Detecting C compiler ABI info - done
+[1.084s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.085s] -- Detecting C compile features
+[1.086s] -- Detecting C compile features - done
+[1.126s] -- Detecting CXX compiler ABI info
+[1.472s] -- Detecting CXX compiler ABI info - done
+[1.490s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.491s] -- Detecting CXX compile features
+[1.491s] -- Detecting CXX compile features - done
+[1.527s] [33mCMake Warning (dev) in CMakeLists.txt:
+[1.527s]   No cmake_minimum_required command is present.  A line of code such as
+[1.528s] 
+[1.528s]     cmake_minimum_required(VERSION 3.22)
+[1.529s] 
+[1.529s]   should be added at the top of the file.  The version specified may be lower
+[1.530s]   if you wish to support older CMake versions for this project.  For more
+[1.530s]   information run "cmake --help-policy CMP0000".
+[1.531s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.531s] [0m
+[1.532s] -- Configuring done
+[1.565s] -- Generating done
+[1.594s] -- Build files have been written to: /root/ws/assets/demo-01/test_01/build/test_01
+[1.596s] Invoked command in '/root/ws/assets/demo-01/test_01/build/test_01' returned '0': /usr/bin/cmake /root/ws/assets/demo-01/test_01 -DCMAKE_INSTALL_PREFIX=/root/ws/assets/demo-01/test_01/install/test_01
+[1.604s] Invoking command in '/root/ws/assets/demo-01/test_01/build/test_01': /usr/bin/cmake --build /root/ws/assets/demo-01/test_01/build/test_01 -- -j16 -l16
+[1.660s] Invoked command in '/root/ws/assets/demo-01/test_01/build/test_01' returned '0': /usr/bin/cmake --build /root/ws/assets/demo-01/test_01/build/test_01 -- -j16 -l16
+[1.697s] Invoking command in '/root/ws/assets/demo-01/test_01/build/test_01': /usr/bin/cmake --install /root/ws/assets/demo-01/test_01/build/test_01
+[1.704s] -- Install configuration: ""
+[1.707s] -- Installing: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/launch
+[1.727s] -- Installing: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/launch/display.launch.py
+[1.780s] -- Installing: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/urdf
+[1.800s] -- Installing: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/urdf/model.urdf
+[1.842s] Invoked command in '/root/ws/assets/demo-01/test_01/build/test_01' returned '0': /usr/bin/cmake --install /root/ws/assets/demo-01/test_01/build/test_01

@@ -1,0 +1,25 @@
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /root/ws/assets/demo-01/test_01/build/test_01
+-- Install configuration: ""
+-- Up-to-date: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/launch
+-- Installing: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/launch/cylinder.launch.py
+-- Installing: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/launch/d415.launch.py
+-- Installing: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/launch/d435.launch.py
+-- Installing: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/launch/__pycache__
+-- Installing: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/launch/__pycache__/cylinder.launch.cpython-310.pyc
+-- Installing: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/launch/__pycache__/d415.launch.cpython-310.pyc
+-- Installing: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/launch/__pycache__/d435.launch.cpython-310.pyc
+-- Installing: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/launch/__pycache__/display.launch.cpython-310.pyc
+-- Up-to-date: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/urdf
+-- Installing: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/urdf/cylinder.urdf
+-- Installing: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/urdf/test_d415_camera.urdf.xacro
+-- Installing: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/urdf/test_d435_camera.urdf.xacro
+-- Installing: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/urdf/_d415.urdf.xacro
+-- Installing: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/urdf/_d435.gazebo.xacro
+-- Installing: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/urdf/_d435.urdf.xacro
+-- Installing: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/mesh
+-- Installing: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/mesh/d415.stl
+-- Installing: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/mesh/d435.dae
+-- Installing: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/rviz
+-- Installing: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/rviz/test_01.rviz

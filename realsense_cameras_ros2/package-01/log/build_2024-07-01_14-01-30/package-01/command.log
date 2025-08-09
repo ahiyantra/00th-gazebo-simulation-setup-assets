@@ -1,0 +1,2 @@
+Invoking command in '/root/ws/assets/package-01/build/package-01': /usr/bin/cmake /root/ws/assets/package-01 -DCMAKE_INSTALL_PREFIX=/root/ws/assets/package-01/install/package-01
+Invoked command in '/root/ws/assets/package-01/build/package-01' returned '1': /usr/bin/cmake /root/ws/assets/package-01 -DCMAKE_INSTALL_PREFIX=/root/ws/assets/package-01/install/package-01

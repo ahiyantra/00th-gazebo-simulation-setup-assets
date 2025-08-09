@@ -1,0 +1,6 @@
+Invoking command in '/root/ws/assets/package-01/build/package-01': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /root/ws/assets/package-01 -DCMAKE_INSTALL_PREFIX=/root/ws/assets/package-01/install/package-01
+Invoked command in '/root/ws/assets/package-01/build/package-01' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /root/ws/assets/package-01 -DCMAKE_INSTALL_PREFIX=/root/ws/assets/package-01/install/package-01
+Invoking command in '/root/ws/assets/package-01/build/package-01': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/ws/assets/package-01/build/package-01 -- -j16 -l16
+Invoked command in '/root/ws/assets/package-01/build/package-01' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/ws/assets/package-01/build/package-01 -- -j16 -l16
+Invoking command in '/root/ws/assets/package-01/build/package-01': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/ws/assets/package-01/build/package-01
+Invoked command in '/root/ws/assets/package-01/build/package-01' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/ws/assets/package-01/build/package-01

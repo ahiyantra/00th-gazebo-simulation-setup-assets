@@ -1,0 +1,9 @@
+/root/ws/assets/package-01/build/package-01/CMakeFiles/uninstall.dir
+/root/ws/assets/package-01/build/package-01/CMakeFiles/package-01_uninstall.dir
+/root/ws/assets/package-01/build/package-01/CMakeFiles/test.dir
+/root/ws/assets/package-01/build/package-01/CMakeFiles/edit_cache.dir
+/root/ws/assets/package-01/build/package-01/CMakeFiles/rebuild_cache.dir
+/root/ws/assets/package-01/build/package-01/CMakeFiles/list_install_components.dir
+/root/ws/assets/package-01/build/package-01/CMakeFiles/install.dir
+/root/ws/assets/package-01/build/package-01/CMakeFiles/install/local.dir
+/root/ws/assets/package-01/build/package-01/CMakeFiles/install/strip.dir

@@ -1,0 +1,219 @@
+[0.000000] (-) TimerEvent: {}
+[0.000385] (test_01) JobQueued: {'identifier': 'test_01', 'dependencies': OrderedDict()}
+[0.000544] (test_01) JobStarted: {'identifier': 'test_01'}
+[0.091168] (test_01) JobProgress: {'identifier': 'test_01', 'progress': 'cmake'}
+[0.098333] (-) TimerEvent: {}
+[0.125521] (test_01) JobProgress: {'identifier': 'test_01', 'progress': 'build'}
+[0.131786] (test_01) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/ws/assets/demo-01/test_01/build/test_01', '--', '-j16', '-l16'], 'cwd': '/root/ws/assets/demo-01/test_01/build/test_01', 'env': OrderedDict([('LIBRARY_PATH', '/usr/local/cuda/lib64/stubs'), ('NV_LIBCUBLAS_VERSION', '12.1.0.26-1'), ('NV_NVPROF_DEV_PACKAGE', 'cuda-nvprof-12-1=12.1.55-1'), ('NV_CUDA_COMPAT_PACKAGE', 'cuda-compat-12-1'), ('NV_CUDA_NSIGHT_COMPUTE_VERSION', '12.1.0-1'), ('HOSTNAME', 'LAPTOP-GL67113F'), ('IGNITION_VERSION', 'fortress'), ('NVIDIA_CUDA_END_OF_LIFE', '1'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64'), ('NV_LIBNCCL_PACKAGE_VERSION', '2.17.1-1'), ('HOME', '/root'), ('OLDPWD', '/root/ws/assets/demo-01'), ('NV_CUDNN_PACKAGE_NAME', 'libcudnn8'), ('NV_LIBCUBLAS_DEV_VERSION', '12.1.0.26-1'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('NV_LIBNCCL_DEV_PACKAGE_VERSION', '2.17.1-1'), ('NV_LIBNPP_PACKAGE', 'libnpp-12-1=12.0.2.50-1'), ('NV_CUDNN_PACKAGE', 'libcudnn8=8.9.0.131-1+cuda12.1'), ('CUDA_VERSION', '12.1.0'), ('COLCON_PREFIX_PATH', '/root/ws/install'), ('NV_NVPROF_VERSION', '12.1.55-1'), ('ROS_DISTRO', 'humble'), ('NV_LIBCUBLAS_PACKAGE_NAME', 'libcublas-12-1'), ('NVIDIA_REQUIRE_CUDA', 'cuda>=12.1 brand=tesla,driver>=470,driver<471 brand=unknown,driver>=470,driver<471 brand=nvidia,driver>=470,driver<471 brand=nvidiartx,driver>=470,driver<471 brand=geforce,driver>=470,driver<471 brand=geforcertx,driver>=470,driver<471 brand=quadro,driver>=470,driver<471 brand=quadrortx,driver>=470,driver<471 brand=titan,driver>=470,driver<471 brand=titanrtx,driver>=470,driver<471 brand=tesla,driver>=525,driver<526 brand=unknown,driver>=525,driver<526 brand=nvidia,driver>=525,driver<526 brand=nvidiartx,driver>=525,driver<526 brand=geforce,driver>=525,driver<526 brand=geforcertx,driver>=525,driver<526 brand=quadro,driver>=525,driver<526 brand=quadrortx,driver>=525,driver<526 brand=titan,driver>=525,driver<526 brand=titanrtx,driver>=525,driver<526'), ('_', '/usr/local/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/root/ws/install/lib/x86_64-linux-gnu/pkgconfig:/root/ws/install/lib/pkgconfig'), ('NV_LIBCUSPARSE_VERSION', '12.0.2.55-1'), ('NVIDIA_DRIVER_CAPABILITIES', 'compute,utility'), ('NV_CUDA_LIB_VERSION', '12.1.0-1'), ('NV_LIBNCCL_PACKAGE_NAME', 'libnccl2'), ('NV_NVML_DEV_VERSION', '12.1.55-1'), ('NV_LIBNPP_DEV_PACKAGE', 'libnpp-dev-12-1=12.0.2.50-1'), ('TERM', 'xterm'), ('NV_CUDA_CUDART_VERSION', '12.1.55-1'), ('NV_CUDNN_PACKAGE_DEV', 'libcudnn8-dev=8.9.0.131-1+cuda12.1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/ws/install/bin:/opt/ros/humble/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/lib/python3.10/dist-packages'), ('NV_LIBCUBLAS_DEV_PACKAGE_NAME', 'libcublas-dev-12-1'), ('NV_LIBCUBLAS_PACKAGE', 'libcublas-12-1=12.1.0.26-1'), ('NVARCH', 'x86_64'), ('NV_LIBNCCL_DEV_PACKAGE_NAME', 'libnccl-dev'), ('NV_LIBCUSPARSE_DEV_VERSION', '12.0.2.55-1'), ('DISPLAY', ':10.0'), ('NV_LIBNCCL_PACKAGE', 'libnccl2=2.17.1-1+cuda12.1'), ('NVIDIA_PRODUCT_NAME', 'CUDA'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('NV_CUDA_CUDART_DEV_VERSION', '12.1.55-1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '37'), ('AMENT_PREFIX_PATH', '/root/ws/install:/opt/ros/humble'), ('NV_LIBCUBLAS_DEV_PACKAGE', 'libcublas-dev-12-1=12.1.0.26-1'), ('NV_CUDA_NSIGHT_COMPUTE_DEV_PACKAGE', 'cuda-nsight-compute-12-1=12.1.0-1'), ('NV_LIBNCCL_DEV_PACKAGE', 'libnccl-dev=2.17.1-1+cuda12.1'), ('IGN_GAZEBO_RESOURCE_PATH', '/root/ws/install/share'), ('NV_NVTX_VERSION', '12.1.66-1'), ('NV_LIBNPP_VERSION', '12.0.2.50-1'), ('GZ_VERSION', 'fortress'), ('NV_CUDNN_VERSION', '8.9.0.131'), ('PWD', '/root/ws/assets/demo-01/test_01/build/test_01'), ('PYTHONPATH', '/root/ws/build/moveit_configs_utils:/root/ws/build/launch_param_builder:/root/ws/build/rqt_joint_trajectory_controller:/root/ws/install/local/lib/python3.10/dist-packages:/root/ws/build/ros2_controllers_test_nodes:/root/ws/install/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('NCCL_VERSION', '2.17.1-1'), ('TZ', 'Europe/Riga'), ('COLCON', '1'), ('NV_LIBNPP_DEV_VERSION', '12.0.2.50-1'), ('CMAKE_PREFIX_PATH', '/root/ws/install:/opt/ros/humble')]), 'shell': False}
+[0.198727] (-) TimerEvent: {}
+[0.284901] (test_01) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.298872] (-) TimerEvent: {}
+[0.399577] (-) TimerEvent: {}
+[0.471051] (test_01) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.499729] (-) TimerEvent: {}
+[0.600457] (-) TimerEvent: {}
+[0.679542] (test_01) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.700580] (-) TimerEvent: {}
+[0.801110] (-) TimerEvent: {}
+[0.901995] (-) TimerEvent: {}
+[1.002791] (-) TimerEvent: {}
+[1.103271] (-) TimerEvent: {}
+[1.203788] (-) TimerEvent: {}
+[1.304419] (-) TimerEvent: {}
+[1.404988] (-) TimerEvent: {}
+[1.505513] (-) TimerEvent: {}
+[1.606067] (-) TimerEvent: {}
+[1.706612] (-) TimerEvent: {}
+[1.807126] (-) TimerEvent: {}
+[1.907637] (-) TimerEvent: {}
+[2.008162] (-) TimerEvent: {}
+[2.108702] (-) TimerEvent: {}
+[2.209279] (-) TimerEvent: {}
+[2.309779] (-) TimerEvent: {}
+[2.410337] (-) TimerEvent: {}
+[2.510815] (-) TimerEvent: {}
+[2.611326] (-) TimerEvent: {}
+[2.711944] (-) TimerEvent: {}
+[2.812765] (-) TimerEvent: {}
+[2.913438] (-) TimerEvent: {}
+[3.014104] (-) TimerEvent: {}
+[3.114825] (-) TimerEvent: {}
+[3.215517] (-) TimerEvent: {}
+[3.316207] (-) TimerEvent: {}
+[3.416927] (-) TimerEvent: {}
+[3.517544] (-) TimerEvent: {}
+[3.618238] (-) TimerEvent: {}
+[3.718923] (-) TimerEvent: {}
+[3.819730] (-) TimerEvent: {}
+[3.920503] (-) TimerEvent: {}
+[4.021031] (-) TimerEvent: {}
+[4.121535] (-) TimerEvent: {}
+[4.222148] (-) TimerEvent: {}
+[4.322846] (-) TimerEvent: {}
+[4.423590] (-) TimerEvent: {}
+[4.524287] (-) TimerEvent: {}
+[4.624833] (-) TimerEvent: {}
+[4.725381] (-) TimerEvent: {}
+[4.825963] (-) TimerEvent: {}
+[4.926743] (-) TimerEvent: {}
+[5.027474] (-) TimerEvent: {}
+[5.128281] (-) TimerEvent: {}
+[5.228831] (-) TimerEvent: {}
+[5.329388] (-) TimerEvent: {}
+[5.430123] (-) TimerEvent: {}
+[5.470819] (test_01) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[5.472002] (test_01) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[5.472736] (test_01) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[5.530234] (-) TimerEvent: {}
+[5.630692] (-) TimerEvent: {}
+[5.731306] (-) TimerEvent: {}
+[5.832272] (-) TimerEvent: {}
+[5.933054] (-) TimerEvent: {}
+[6.033636] (-) TimerEvent: {}
+[6.038391] (test_01) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[6.133770] (-) TimerEvent: {}
+[6.234318] (-) TimerEvent: {}
+[6.335037] (-) TimerEvent: {}
+[6.435873] (-) TimerEvent: {}
+[6.536603] (-) TimerEvent: {}
+[6.637244] (-) TimerEvent: {}
+[6.737732] (-) TimerEvent: {}
+[6.838218] (-) TimerEvent: {}
+[6.938834] (-) TimerEvent: {}
+[7.039553] (-) TimerEvent: {}
+[7.130439] (test_01) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[7.139712] (-) TimerEvent: {}
+[7.240413] (-) TimerEvent: {}
+[7.341074] (-) TimerEvent: {}
+[7.441756] (-) TimerEvent: {}
+[7.542485] (-) TimerEvent: {}
+[7.643171] (-) TimerEvent: {}
+[7.682025] (test_01) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[7.743293] (-) TimerEvent: {}
+[7.843907] (-) TimerEvent: {}
+[7.944700] (-) TimerEvent: {}
+[8.045180] (-) TimerEvent: {}
+[8.145689] (-) TimerEvent: {}
+[8.246245] (-) TimerEvent: {}
+[8.346799] (-) TimerEvent: {}
+[8.447317] (-) TimerEvent: {}
+[8.547840] (-) TimerEvent: {}
+[8.648467] (-) TimerEvent: {}
+[8.748966] (-) TimerEvent: {}
+[8.849597] (-) TimerEvent: {}
+[8.950392] (-) TimerEvent: {}
+[9.051056] (-) TimerEvent: {}
+[9.151628] (-) TimerEvent: {}
+[9.252236] (-) TimerEvent: {}
+[9.352959] (-) TimerEvent: {}
+[9.453821] (-) TimerEvent: {}
+[9.554481] (-) TimerEvent: {}
+[9.655197] (-) TimerEvent: {}
+[9.755870] (-) TimerEvent: {}
+[9.856520] (-) TimerEvent: {}
+[9.957233] (-) TimerEvent: {}
+[10.057828] (-) TimerEvent: {}
+[10.158478] (-) TimerEvent: {}
+[10.259181] (-) TimerEvent: {}
+[10.359809] (-) TimerEvent: {}
+[10.460434] (-) TimerEvent: {}
+[10.560934] (-) TimerEvent: {}
+[10.661458] (-) TimerEvent: {}
+[10.762037] (-) TimerEvent: {}
+[10.862634] (-) TimerEvent: {}
+[10.963307] (-) TimerEvent: {}
+[11.063810] (-) TimerEvent: {}
+[11.164541] (-) TimerEvent: {}
+[11.265288] (-) TimerEvent: {}
+[11.365889] (-) TimerEvent: {}
+[11.466425] (-) TimerEvent: {}
+[11.566911] (-) TimerEvent: {}
+[11.667410] (-) TimerEvent: {}
+[11.767892] (-) TimerEvent: {}
+[11.868462] (-) TimerEvent: {}
+[11.969043] (-) TimerEvent: {}
+[12.069603] (-) TimerEvent: {}
+[12.158037] (test_01) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[12.158807] (test_01) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[12.169807] (-) TimerEvent: {}
+[12.270564] (-) TimerEvent: {}
+[12.371231] (-) TimerEvent: {}
+[12.471994] (-) TimerEvent: {}
+[12.572737] (-) TimerEvent: {}
+[12.673233] (-) TimerEvent: {}
+[12.726229] (test_01) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[12.773391] (-) TimerEvent: {}
+[12.824650] (test_01) StdoutLine: {'line': b'-- Configuring done\n'}
+[12.873596] (-) TimerEvent: {}
+[12.974214] (-) TimerEvent: {}
+[13.063022] (test_01) StdoutLine: {'line': b'-- Generating done\n'}
+[13.074374] (-) TimerEvent: {}
+[13.126002] (test_01) StdoutLine: {'line': b'-- Build files have been written to: /root/ws/assets/demo-01/test_01/build/test_01\n'}
+[13.157996] (test_01) CommandEnded: {'returncode': 0}
+[13.174513] (-) TimerEvent: {}
+[13.186799] (test_01) JobProgress: {'identifier': 'test_01', 'progress': 'install'}
+[13.201116] (test_01) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/ws/assets/demo-01/test_01/build/test_01'], 'cwd': '/root/ws/assets/demo-01/test_01/build/test_01', 'env': OrderedDict([('LIBRARY_PATH', '/usr/local/cuda/lib64/stubs'), ('NV_LIBCUBLAS_VERSION', '12.1.0.26-1'), ('NV_NVPROF_DEV_PACKAGE', 'cuda-nvprof-12-1=12.1.55-1'), ('NV_CUDA_COMPAT_PACKAGE', 'cuda-compat-12-1'), ('NV_CUDA_NSIGHT_COMPUTE_VERSION', '12.1.0-1'), ('HOSTNAME', 'LAPTOP-GL67113F'), ('IGNITION_VERSION', 'fortress'), ('NVIDIA_CUDA_END_OF_LIFE', '1'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64'), ('NV_LIBNCCL_PACKAGE_VERSION', '2.17.1-1'), ('HOME', '/root'), ('OLDPWD', '/root/ws/assets/demo-01'), ('NV_CUDNN_PACKAGE_NAME', 'libcudnn8'), ('NV_LIBCUBLAS_DEV_VERSION', '12.1.0.26-1'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('NV_LIBNCCL_DEV_PACKAGE_VERSION', '2.17.1-1'), ('NV_LIBNPP_PACKAGE', 'libnpp-12-1=12.0.2.50-1'), ('NV_CUDNN_PACKAGE', 'libcudnn8=8.9.0.131-1+cuda12.1'), ('CUDA_VERSION', '12.1.0'), ('COLCON_PREFIX_PATH', '/root/ws/install'), ('NV_NVPROF_VERSION', '12.1.55-1'), ('ROS_DISTRO', 'humble'), ('NV_LIBCUBLAS_PACKAGE_NAME', 'libcublas-12-1'), ('NVIDIA_REQUIRE_CUDA', 'cuda>=12.1 brand=tesla,driver>=470,driver<471 brand=unknown,driver>=470,driver<471 brand=nvidia,driver>=470,driver<471 brand=nvidiartx,driver>=470,driver<471 brand=geforce,driver>=470,driver<471 brand=geforcertx,driver>=470,driver<471 brand=quadro,driver>=470,driver<471 brand=quadrortx,driver>=470,driver<471 brand=titan,driver>=470,driver<471 brand=titanrtx,driver>=470,driver<471 brand=tesla,driver>=525,driver<526 brand=unknown,driver>=525,driver<526 brand=nvidia,driver>=525,driver<526 brand=nvidiartx,driver>=525,driver<526 brand=geforce,driver>=525,driver<526 brand=geforcertx,driver>=525,driver<526 brand=quadro,driver>=525,driver<526 brand=quadrortx,driver>=525,driver<526 brand=titan,driver>=525,driver<526 brand=titanrtx,driver>=525,driver<526'), ('_', '/usr/local/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/root/ws/install/lib/x86_64-linux-gnu/pkgconfig:/root/ws/install/lib/pkgconfig'), ('NV_LIBCUSPARSE_VERSION', '12.0.2.55-1'), ('NVIDIA_DRIVER_CAPABILITIES', 'compute,utility'), ('NV_CUDA_LIB_VERSION', '12.1.0-1'), ('NV_LIBNCCL_PACKAGE_NAME', 'libnccl2'), ('NV_NVML_DEV_VERSION', '12.1.55-1'), ('NV_LIBNPP_DEV_PACKAGE', 'libnpp-dev-12-1=12.0.2.50-1'), ('TERM', 'xterm'), ('NV_CUDA_CUDART_VERSION', '12.1.55-1'), ('NV_CUDNN_PACKAGE_DEV', 'libcudnn8-dev=8.9.0.131-1+cuda12.1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/ws/install/bin:/opt/ros/humble/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/lib/python3.10/dist-packages'), ('NV_LIBCUBLAS_DEV_PACKAGE_NAME', 'libcublas-dev-12-1'), ('NV_LIBCUBLAS_PACKAGE', 'libcublas-12-1=12.1.0.26-1'), ('NVARCH', 'x86_64'), ('NV_LIBNCCL_DEV_PACKAGE_NAME', 'libnccl-dev'), ('NV_LIBCUSPARSE_DEV_VERSION', '12.0.2.55-1'), ('DISPLAY', ':10.0'), ('NV_LIBNCCL_PACKAGE', 'libnccl2=2.17.1-1+cuda12.1'), ('NVIDIA_PRODUCT_NAME', 'CUDA'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('NV_CUDA_CUDART_DEV_VERSION', '12.1.55-1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '37'), ('AMENT_PREFIX_PATH', '/root/ws/install:/opt/ros/humble'), ('NV_LIBCUBLAS_DEV_PACKAGE', 'libcublas-dev-12-1=12.1.0.26-1'), ('NV_CUDA_NSIGHT_COMPUTE_DEV_PACKAGE', 'cuda-nsight-compute-12-1=12.1.0-1'), ('NV_LIBNCCL_DEV_PACKAGE', 'libnccl-dev=2.17.1-1+cuda12.1'), ('IGN_GAZEBO_RESOURCE_PATH', '/root/ws/install/share'), ('NV_NVTX_VERSION', '12.1.66-1'), ('NV_LIBNPP_VERSION', '12.0.2.50-1'), ('GZ_VERSION', 'fortress'), ('NV_CUDNN_VERSION', '8.9.0.131'), ('PWD', '/root/ws/assets/demo-01/test_01/build/test_01'), ('PYTHONPATH', '/root/ws/build/moveit_configs_utils:/root/ws/build/launch_param_builder:/root/ws/build/rqt_joint_trajectory_controller:/root/ws/install/local/lib/python3.10/dist-packages:/root/ws/build/ros2_controllers_test_nodes:/root/ws/install/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('NCCL_VERSION', '2.17.1-1'), ('TZ', 'Europe/Riga'), ('COLCON', '1'), ('NV_LIBNPP_DEV_VERSION', '12.0.2.50-1'), ('CMAKE_PREFIX_PATH', '/root/ws/install:/opt/ros/humble')]), 'shell': False}
+[13.217953] (test_01) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[13.224200] (test_01) StdoutLine: {'line': b'-- Up-to-date: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/launch\n'}
+[13.244984] (test_01) StdoutLine: {'line': b'-- Up-to-date: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/launch/cylinder.launch.py\n'}
+[13.259334] (test_01) StdoutLine: {'line': b'-- Up-to-date: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/launch/d415.launch.py\n'}
+[13.272957] (test_01) StdoutLine: {'line': b'-- Installing: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/launch/d435.launch.py\n'}
+[13.274594] (-) TimerEvent: {}
+[13.345755] (test_01) StdoutLine: {'line': b'-- Up-to-date: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/launch/__pycache__\n'}
+[13.369439] (test_01) StdoutLine: {'line': b'-- Up-to-date: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/launch/__pycache__/cylinder.launch.cpython-310.pyc\n'}
+[13.374788] (-) TimerEvent: {}
+[13.390506] (test_01) StdoutLine: {'line': b'-- Up-to-date: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/launch/__pycache__/d415.launch.cpython-310.pyc\n'}
+[13.415230] (test_01) StdoutLine: {'line': b'-- Installing: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/launch/__pycache__/d435.launch.cpython-310.pyc\n'}
+[13.474931] (-) TimerEvent: {}
+[13.488325] (test_01) StdoutLine: {'line': b'-- Up-to-date: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/launch/__pycache__/display.launch.cpython-310.pyc\n'}
+[13.501916] (test_01) StdoutLine: {'line': b'-- Up-to-date: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/urdf\n'}
+[13.522889] (test_01) StdoutLine: {'line': b'-- Up-to-date: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/urdf/cylinder.urdf\n'}
+[13.538607] (test_01) StdoutLine: {'line': b'-- Up-to-date: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/urdf/test_d415_camera.urdf.xacro\n'}
+[13.552945] (test_01) StdoutLine: {'line': b'-- Up-to-date: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/urdf/test_d435_camera.urdf.xacro\n'}
+[13.567837] (test_01) StdoutLine: {'line': b'-- Up-to-date: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/urdf/_d415.urdf.xacro\n'}
+[13.575059] (-) TimerEvent: {}
+[13.581721] (test_01) StdoutLine: {'line': b'-- Up-to-date: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/urdf/_d435.gazebo.xacro\n'}
+[13.598322] (test_01) StdoutLine: {'line': b'-- Installing: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/urdf/_d435.urdf.xacro\n'}
+[13.668789] (test_01) StdoutLine: {'line': b'-- Up-to-date: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/mesh\n'}
+[13.675169] (-) TimerEvent: {}
+[13.686473] (test_01) StdoutLine: {'line': b'-- Up-to-date: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/mesh/d415.stl\n'}
+[13.703535] (test_01) StdoutLine: {'line': b'-- Up-to-date: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/mesh/d435.dae\n'}
+[13.719910] (test_01) StdoutLine: {'line': b'-- Up-to-date: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/rviz\n'}
+[13.741249] (test_01) StdoutLine: {'line': b'-- Up-to-date: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/rviz/test_01.rviz\n'}
+[13.753518] (test_01) StdoutLine: {'line': b'-- Installing: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/rviz/test_rs.rviz\n'}
+[13.775323] (-) TimerEvent: {}
+[13.839234] (test_01) StdoutLine: {'line': b'-- Installing: /root/ws/assets/demo-01/test_01/install/test_01/share/ament_index/resource_index/package_run_dependencies/test_01\n'}
+[13.875484] (-) TimerEvent: {}
+[13.948849] (test_01) StdoutLine: {'line': b'-- Installing: /root/ws/assets/demo-01/test_01/install/test_01/share/ament_index/resource_index/parent_prefix_path/test_01\n'}
+[13.975651] (-) TimerEvent: {}
+[14.032656] (test_01) StdoutLine: {'line': b'-- Installing: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/environment/ament_prefix_path.sh\n'}
+[14.075786] (-) TimerEvent: {}
+[14.085523] (test_01) StdoutLine: {'line': b'-- Installing: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/environment/ament_prefix_path.dsv\n'}
+[14.143690] (test_01) StdoutLine: {'line': b'-- Installing: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/environment/path.sh\n'}
+[14.175926] (-) TimerEvent: {}
+[14.195514] (test_01) StdoutLine: {'line': b'-- Installing: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/environment/path.dsv\n'}
+[14.260454] (test_01) StdoutLine: {'line': b'-- Installing: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/local_setup.bash\n'}
+[14.276040] (-) TimerEvent: {}
+[14.314095] (test_01) StdoutLine: {'line': b'-- Installing: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/local_setup.sh\n'}
+[14.368313] (test_01) StdoutLine: {'line': b'-- Installing: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/local_setup.zsh\n'}
+[14.376162] (-) TimerEvent: {}
+[14.424730] (test_01) StdoutLine: {'line': b'-- Installing: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/local_setup.dsv\n'}
+[14.476314] (-) TimerEvent: {}
+[14.478019] (test_01) StdoutLine: {'line': b'-- Installing: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/package.dsv\n'}
+[14.558519] (test_01) StdoutLine: {'line': b'-- Installing: /root/ws/assets/demo-01/test_01/install/test_01/share/ament_index/resource_index/packages/test_01\n'}
+[14.576505] (-) TimerEvent: {}
+[14.654377] (test_01) StdoutLine: {'line': b'-- Installing: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/cmake/test_01Config.cmake\n'}
+[14.676703] (-) TimerEvent: {}
+[14.712758] (test_01) StdoutLine: {'line': b'-- Installing: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/cmake/test_01Config-version.cmake\n'}
+[14.774498] (test_01) StdoutLine: {'line': b'-- Installing: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/package.xml\n'}
+[14.776806] (-) TimerEvent: {}
+[14.817658] (test_01) CommandEnded: {'returncode': 0}
+[14.876941] (-) TimerEvent: {}
+[14.977486] (-) TimerEvent: {}
+[15.078258] (-) TimerEvent: {}
+[15.179286] (-) TimerEvent: {}
+[15.279995] (-) TimerEvent: {}
+[15.380832] (-) TimerEvent: {}
+[15.478506] (test_01) JobEnded: {'identifier': 'test_01', 'rc': 0}
+[15.487420] (-) TimerEvent: {}
+[15.487815] (-) EventReactorShutdown: {}

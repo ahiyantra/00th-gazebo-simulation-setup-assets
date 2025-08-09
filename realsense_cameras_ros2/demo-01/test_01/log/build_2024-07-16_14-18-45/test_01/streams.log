@@ -1,0 +1,29 @@
+[0.159s] Invoking command in '/root/ws/assets/demo-01/test_01/build/test_01': /usr/bin/cmake --build /root/ws/assets/demo-01/test_01/build/test_01 -- -j16 -l16
+[0.335s] -- Configuring done
+[0.404s] -- Generating done
+[0.442s] -- Build files have been written to: /root/ws/assets/demo-01/test_01/build/test_01
+[0.476s] Invoked command in '/root/ws/assets/demo-01/test_01/build/test_01' returned '0': /usr/bin/cmake --build /root/ws/assets/demo-01/test_01/build/test_01 -- -j16 -l16
+[0.528s] Invoking command in '/root/ws/assets/demo-01/test_01/build/test_01': /usr/bin/cmake --install /root/ws/assets/demo-01/test_01/build/test_01
+[0.537s] -- Install configuration: ""
+[0.544s] -- Up-to-date: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/launch
+[0.565s] -- Installing: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/launch/cylinder.launch.py
+[0.628s] -- Installing: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/launch/d415.launch.py
+[0.684s] -- Installing: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/launch/d435.launch.py
+[0.735s] -- Installing: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/launch/__pycache__
+[0.762s] -- Installing: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/launch/__pycache__/cylinder.launch.cpython-310.pyc
+[0.831s] -- Installing: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/launch/__pycache__/d415.launch.cpython-310.pyc
+[0.895s] -- Installing: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/launch/__pycache__/d435.launch.cpython-310.pyc
+[0.968s] -- Installing: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/launch/__pycache__/display.launch.cpython-310.pyc
+[1.030s] -- Up-to-date: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/urdf
+[1.049s] -- Installing: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/urdf/cylinder.urdf
+[1.115s] -- Installing: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/urdf/test_d415_camera.urdf.xacro
+[1.172s] -- Installing: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/urdf/test_d435_camera.urdf.xacro
+[1.225s] -- Installing: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/urdf/_d415.urdf.xacro
+[1.286s] -- Installing: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/urdf/_d435.gazebo.xacro
+[1.339s] -- Installing: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/urdf/_d435.urdf.xacro
+[1.389s] -- Installing: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/mesh
+[1.413s] -- Installing: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/mesh/d415.stl
+[2.327s] -- Installing: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/mesh/d435.dae
+[3.220s] -- Installing: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/rviz
+[3.246s] -- Installing: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/rviz/test_01.rviz
+[3.300s] Invoked command in '/root/ws/assets/demo-01/test_01/build/test_01' returned '0': /usr/bin/cmake --install /root/ws/assets/demo-01/test_01/build/test_01

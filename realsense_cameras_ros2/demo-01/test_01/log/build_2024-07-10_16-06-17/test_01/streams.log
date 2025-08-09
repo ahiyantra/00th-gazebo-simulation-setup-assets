@@ -1,0 +1,12 @@
+[0.098s] Invoking command in '/root/ws/assets/demo-01/test_01/build/test_01': /usr/bin/cmake --build /root/ws/assets/demo-01/test_01/build/test_01 -- -j16 -l16
+[0.158s] -- Configuring done
+[0.202s] -- Generating done
+[0.233s] -- Build files have been written to: /root/ws/assets/demo-01/test_01/build/test_01
+[0.256s] Invoked command in '/root/ws/assets/demo-01/test_01/build/test_01' returned '0': /usr/bin/cmake --build /root/ws/assets/demo-01/test_01/build/test_01 -- -j16 -l16
+[0.289s] Invoking command in '/root/ws/assets/demo-01/test_01/build/test_01': /usr/bin/cmake --install /root/ws/assets/demo-01/test_01/build/test_01
+[0.296s] -- Install configuration: ""
+[0.301s] -- Up-to-date: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/launch
+[0.317s] -- Up-to-date: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/launch/display.launch.py
+[0.326s] -- Up-to-date: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/urdf
+[0.343s] -- Up-to-date: /root/ws/assets/demo-01/test_01/install/test_01/share/test_01/urdf/model.urdf
+[0.351s] Invoked command in '/root/ws/assets/demo-01/test_01/build/test_01' returned '0': /usr/bin/cmake --install /root/ws/assets/demo-01/test_01/build/test_01

@@ -1,0 +1,6 @@
+Invoking command in '/root/ws/assets/demo-01/test_01/build/test_01': /usr/bin/cmake /root/ws/assets/demo-01/test_01 -DCMAKE_INSTALL_PREFIX=/root/ws/assets/demo-01/test_01/install/test_01
+Invoked command in '/root/ws/assets/demo-01/test_01/build/test_01' returned '0': /usr/bin/cmake /root/ws/assets/demo-01/test_01 -DCMAKE_INSTALL_PREFIX=/root/ws/assets/demo-01/test_01/install/test_01
+Invoking command in '/root/ws/assets/demo-01/test_01/build/test_01': /usr/bin/cmake --build /root/ws/assets/demo-01/test_01/build/test_01 -- -j16 -l16
+Invoked command in '/root/ws/assets/demo-01/test_01/build/test_01' returned '0': /usr/bin/cmake --build /root/ws/assets/demo-01/test_01/build/test_01 -- -j16 -l16
+Invoking command in '/root/ws/assets/demo-01/test_01/build/test_01': /usr/bin/cmake --install /root/ws/assets/demo-01/test_01/build/test_01
+Invoked command in '/root/ws/assets/demo-01/test_01/build/test_01' returned '0': /usr/bin/cmake --install /root/ws/assets/demo-01/test_01/build/test_01
