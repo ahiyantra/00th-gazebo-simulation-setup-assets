@@ -1,3 +1,3 @@
 # gazebo-simulation-setup-assets-00
 
-the remnants of contributions made to the assets of a project's gazebo simulation setup for an internship during 2024 CE
+a mimicry of contributions made to the assets of a project's gazebo ignition fortress simulator setup for an internship during 2024 CE
